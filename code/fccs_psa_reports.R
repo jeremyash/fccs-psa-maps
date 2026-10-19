@@ -16,10 +16,7 @@ raster_paths <- c(
   PR = "gis/LF2023_PRVI_240_IA/LF2023_FCCS_240_PRVI/Tif/LV23_FCCS_240.tif"
 )
 
-psa_path <- paste0(
-  "gis/DMP_Predictive_Service_Area__PSA_Boundaries_Public_",
-  "4972049620355624354.geojson"
-)
+psa_path <- "gis/psa_boundaries.geojson"
 
 # A single PSA boundary dataset is shared by all regions.
 psa_boundaries <- sf::st_read(psa_path, quiet = TRUE)

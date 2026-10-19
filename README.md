@@ -92,7 +92,7 @@ Download the boundaries in GeoJSON format and place the file in the local `gis/`
 The current script expects the filename:
 
 ```text
-gis/DMP_Predictive_Service_Area__PSA_Boundaries_Public_4972049620355624354.geojson
+gis/psa_boundaries.geojson
 ```
 
 The GeoJSON is not included in this repository.
