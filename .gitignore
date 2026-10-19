@@ -1,9 +1,6 @@
 # Large GIS input files
 gis
 
-# Generated maps and summaries
-output/
-
 # RStudio
 .Rproj.user/
 .Rhistory
